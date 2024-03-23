@@ -267,10 +267,23 @@ body {
 
 .container {
     margin: 20px;
-    border: 2px solid #0ef;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: #1f242d;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.but3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but3 h3 {
+    text-align: center;
 }
 
 .but3 a {
@@ -278,8 +291,11 @@ body {
     font-size: 16px;
     border: 3px solid #0ef;
     position: relative;
-    top: 40px;
+    /* top: 40px; */
+    margin-bottom: 80px;
 }
+
+
 
 .p1 {
     display: flex;
@@ -451,6 +467,11 @@ body {
     display: none;
 }
 
+
+.solo span {
+    color: #0ef;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar {
         display: grid;
@@ -556,7 +577,7 @@ body {
     }
 
     .skillset img {
-        height: 90px;
+        height: 100px;
         position: relative;
         bottom: 400px;
         margin: 5px;
@@ -565,11 +586,12 @@ body {
 
     .skillset {
         display: grid;
+        grid-template-columns: 0.4fr 0.5fr;
     }
 
     .skil {
         position: relative;
-        left: 130px;
+        left: 90px;
     }
 
     .sk4 {
@@ -578,9 +600,15 @@ body {
 
     #about {
         position: relative;
-        bottom: 200px;
+        bottom: 90px;
         left: 100px;
     }
+
+    .btn {
+        text-align: center;
+        position: relative;
+    }
+
 
     #hello {
         display: grid;
@@ -592,6 +620,7 @@ body {
     #btn2 {
         position: relative;
         left: 110px;
+        text-align: center;
     }
 
     .ct {
@@ -604,6 +633,25 @@ body {
 
     .project p {
         display: none;
+    }
+
+    .solo {
+
+        position: relative;
+        left: 80px;
+        width: 300px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .sun {
+        text-align: center;
+        position: relative;
+        left: 90px;
+    }
+
+    .solo span {
+        color: #0ef;
     }
 
     .nv {
@@ -624,7 +672,6 @@ body {
 
     #btn4 {
         position: relative;
-        left: 60px;
     }
 
     .cimg {
@@ -636,6 +683,15 @@ body {
     #luffy {
         display: block;
     }
+
+    .but3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
 
 
 }
