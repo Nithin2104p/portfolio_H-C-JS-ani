@@ -8,9 +8,9 @@ ScrollReveal({
 ScrollReveal().reveal('.ptf', { delay: 100, origin: 'bottom' })
 ScrollReveal().reveal('.navbar', { delay: 100, origin: 'left' })
 ScrollReveal().reveal('#move', { delay: 0, origin: 'top' })
-ScrollReveal().reveal('.home', { delay: 100, origin: 'top' })
+ScrollReveal().reveal('.home', { delay: 100, origin: 'bottom' })
 ScrollReveal().reveal('.nithin', { delay: 100, origin: 'bottom' })
-ScrollReveal().reveal('#zoro', { delay: 100, origin: 'top' })
+ScrollReveal().reveal('#zoro', { delay: 100, origin: 'bottom' })
 
 
 ScrollReveal().reveal('.services', { delay: 100, origin: 'bottom' })

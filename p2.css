@@ -638,7 +638,7 @@ body {
     .solo {
 
         position: relative;
-        left: 80px;
+        left: 100px;
         width: 300px;
         text-align: justify;
         text-justify: inter-word;
