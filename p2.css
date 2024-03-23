@@ -1,0 +1,641 @@
+body {
+    background: linear-gradient(to left, #04132e, #021226)
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.navbar ul li a {
+    margin: 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+
+
+
+}
+
+
+
+
+.ptf {
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+    position: relative;
+    left: 50px;
+}
+
+.h {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin: 100px;
+
+}
+
+.home {
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+    /* margin-bottom: 10px solid #0ef; */
+}
+
+#home h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+#home h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+#home p {
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.image img {
+    float: right;
+    z-index: 1;
+    position: absolute;
+    right: 400px;
+
+}
+
+.and {
+    font-size: 15px;
+}
+
+.socialmedia a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: 2px solid #0ef;
+    color: #0ef;
+    margin: 2rem 1.5rem 3rem 0;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.socialmedia a:hover {
+    background: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 50px #0ef;
+    transition: 0.5s;
+}
+
+.frontend {
+    color: #0ef;
+}
+
+.btn {
+    display: inline-block;
+    padding: 3px 9px;
+    background: #0ef;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0ef;
+    color: #1f242d;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #0ef;
+    box-shadow: 30px #0ef;
+    border: 2px solid #0ef;
+}
+
+.hr {
+    height: 1px;
+    background: #0ef;
+    border: 2px solid #0ef;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #0ef;
+    width: 20%;
+    position: relative;
+    top: 492px;
+    float: right;
+    left: -350px;
+}
+
+.tabc ul li {
+    list-style: none;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tabc ul li span {
+    color: #0ef;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tabc h4 {
+    color: #0ef;
+    border: solid 2px;
+    width: 140px;
+    box-shadow: 0 0 10px #0ef;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#hello {
+    display: flex;
+    gap: 100px;
+}
+
+/* .sklzz {
+    position: absolute;
+    top: -300px;
+} */
+
+.skil {
+    display: grid;
+}
+
+.skillset {
+    display: flex;
+    margin: 10px;
+    gap: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.css {
+    position: relative;
+    bottom: 4ch;
+}
+
+.boot {
+    position: relative;
+    bottom: 20px;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+
+}
+
+#skills h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#skills h3 {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.but2 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.ct {
+    display: flex;
+    margin: 50px;
+}
+
+.container a {
+    color: #0ef;
+    font-size: 39px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    margin: 20px;
+    border: 2px solid #0ef;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #1f242d;
+}
+
+.but3 a {
+    color: #1f242d;
+    font-size: 16px;
+    border: 3px solid #0ef;
+    position: relative;
+    top: 40px;
+}
+
+.p1 {
+    display: flex;
+    margin: 0 0 5%;
+}
+
+.p1 a img {
+    margin: 0 50px;
+    border-radius: 5px;
+}
+
+#btn4 {
+    background-color: transparent;
+    color: #0ef;
+    border: 2px solid #0ef;
+    box-shadow: 0 0;
+    display: block;
+    width: 100px;
+    flex-wrap: wrap;
+    justify-content: end;
+    text-align: center;
+
+}
+
+.nv {
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.cimg {
+    display: flex;
+}
+
+.cimg img {
+
+    justify-content: space-between;
+
+}
+
+.weblayer {
+    transform: translateX(50%);
+    margin: 50px;
+}
+
+.weblayer img {
+    border-radius: 20px;
+    position: relative;
+    /* right: 50%; */
+    /* left: 50%; */
+
+    justify-content: space-between;
+    filter: opacity()
+}
+
+.weblayer h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 60px;
+
+}
+
+.weblayer a {
+    color: #0ef;
+    /* text-align: center; */
+    font-size: 20px;
+    transform: translateX(50%);
+    position: relative;
+    left: 120px;
+    margin-top: 30px;
+}
+
+.weblayer h4 a {
+    position: relative;
+    left: 120px;
+}
+
+.butz a {
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    transform: translateX(50%);
+
+}
+
+.contact-right {
+    color: white;
+}
+
+form input,
+form textarea {
+    transform: translate(50%);
+    width: 50%;
+    color: #fefefe;
+    outline: none;
+    background: #262626;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.bt5 {
+    text-align: center;
+    position: relative;
+    right: 50px;
+    background: transparent;
+    color: #0ef;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 5px;
+
+}
+
+.contact-right a {
+    position: relative;
+    top: 40px;
+
+}
+
+.copyright span {
+    color: #0ef;
+}
+
+.copyright p {
+    color: white;
+    background-color: #262626;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright {
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to left, #04132e, #021226);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+}
+
+#kuma a {
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50, -50);
+    text-align: center;
+}
+
+
+#hell {
+    border-radius: 30px;
+}
+
+
+#luffy {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: grid;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar ul li a {
+        margin: 20px;
+
+    }
+
+    .h2104 {
+        display: grid;
+    }
+
+    .image img {
+        height: 400px;
+        position: relative;
+        right: 305px;
+        bottom: 50px;
+
+    }
+
+    .h {
+        position: relative;
+        right: 100px;
+    }
+
+    .z {
+        position: relative;
+        right: 70px;
+    }
+
+    #move {
+        position: relative;
+        left: 100px;
+
+    }
+
+    #center {
+        text-align: center;
+        position: relative;
+        left: 30px;
+    }
+
+    #zzz {
+        position: relative;
+        left: 110px;
+
+    }
+
+    #sklzz {
+        position: relative;
+        bottom: 500px;
+        right: 50px;
+    }
+
+    .skil {
+        position: relative;
+        top: 80px;
+    }
+
+    .hr {
+        position: absolute;
+        float: left;
+        width: 220px;
+        left: -15px;
+        top: 340px;
+    }
+
+    #home {
+        position: relative;
+        bottom: 350px;
+        margin: 1px;
+        margin-left: 1px;
+    }
+
+    #home h2 {
+        position: relative;
+        right: 80px;
+        flex-direction: column;
+        font-size: 19px;
+    }
+
+    #home p {
+        display: none;
+    }
+
+    .socialmedia {
+        display: flex;
+        position: relative;
+        right: 50px;
+        top: 20px;
+    }
+
+    .nithin {
+        position: relative;
+        right: 70px;
+    }
+
+    .skillset img {
+        height: 90px;
+        position: relative;
+        bottom: 400px;
+        margin: 5px;
+        right: 80px;
+    }
+
+    .skillset {
+        display: grid;
+    }
+
+    .skil {
+        position: relative;
+        left: 130px;
+    }
+
+    .sk4 {
+        display: flex;
+    }
+
+    #about {
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+    }
+
+    #hello {
+        display: grid;
+        position: relative;
+        bottom: 50px;
+        left: 100px;
+    }
+
+    #btn2 {
+        position: relative;
+        left: 110px;
+    }
+
+    .ct {
+        display: grid;
+    }
+
+    .project {
+        display: grid;
+    }
+
+    .project p {
+        display: none;
+    }
+
+    .nv {
+        display: grid;
+    }
+
+    .p1 {
+        margin: 50px;
+    }
+
+    .p12 h3 {
+        text-align: center;
+    }
+
+    .p1 img {
+        border-radius: 15px;
+    }
+
+    #btn4 {
+        position: relative;
+        left: 60px;
+    }
+
+    .cimg {
+        display: grid;
+        position: relative;
+        right: 160px;
+    }
+
+    #luffy {
+        display: block;
+    }
+
+
+}
