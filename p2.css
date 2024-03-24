@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to left, #04132e, #021226);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -649,6 +649,11 @@ body {
         text-align: center;
         position: relative;
         left: 90px;
+    }
+
+    .ecommerce {
+        position: relative;
+        right: 40px;
     }
 
     .solo span {
