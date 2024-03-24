@@ -435,6 +435,18 @@ form textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.contact-right input {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+}
+
+.contact-right textarea {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+}
+
 .copyright {
     width: 100%;
 }
@@ -443,8 +455,7 @@ body {
     background: linear-gradient(to left, #04132e, #021226);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;
 }
 
 .container {
@@ -479,8 +490,7 @@ body {
     }
 
     body {
-        padding: 0;
-        margin: 0;
+        overflow-x: hidden;
     }
 
     .navbar ul li a {
@@ -639,7 +649,7 @@ body {
     .solo {
 
         position: relative;
-        left: 100px;
+        left: 110px;
         width: 300px;
         text-align: justify;
         text-justify: inter-word;
